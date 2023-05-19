@@ -1,0 +1,507 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    font-size: 12px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.3rem;
+}
+
+li {
+    list-style-type: none;
+    padding: 0.4rem 1.2rem;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.imageContainer {
+    width: 100px;
+    height: 70px;
+}
+
+a {
+    transition: color 0.7s;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-primary {
+    background-color: #3b5998;
+}
+
+.bg-darker {
+    background-color: black;
+}
+
+.text-primary {
+    color: #3b5998;
+}
+
+.text-darker {
+    color: black;
+}
+
+.navLinks:hover {
+    color: #3b5998 !important;
+}
+
+.menuLinks:hover a {
+    color: #3b5998;
+}
+
+.opacity-75:hover {
+    opacity: 1 !important;
+}
+
+.blueLine {
+    background-color: white;
+    height: 2px;
+}
+
+.h-60 {
+    height: 60px;
+}
+
+.z-index-5 {
+    z-index: 5;
+}
+
+.z-index-4 {
+    z-index: 4;
+}
+
+.carousel-selector {
+    height: 2px;
+    display: none;
+    padding: 1.5px 10px;
+    width: calc(100% /8);
+}
+
+.carousel-controllers {
+    position: absolute;
+    bottom: 0;
+    width: 2rem;
+}
+
+.carousel-control-next {
+    bottom: 0;
+    justify-content: space-evenly !important;
+    width: 15%;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s;
+    cursor: pointer;
+}
+
+.start-1428 {
+    left: 14.28%;
+}
+
+.start-2856 {
+    left: 28.56%;
+}
+
+.start-4284 {
+    left: 42.84%;
+}
+
+.start-5712 {
+    left: 57.12%;
+}
+
+.start-7192 {
+    left: 71.92%;
+}
+
+.start-862 {
+    left: 86.2%;
+}
+
+.start-10 {
+    left: 10%;
+}
+
+.start-22 {
+    left: 22%;
+}
+
+.start-34 {
+    left: 34%;
+}
+
+.start-46 {
+    left: 46%;
+}
+
+.start-58 {
+    left: 58%;
+}
+
+.start-70 {
+    left: 70%;
+}
+
+.start-25 {
+    left: 25% !important;
+}
+
+.start-62 {
+    left: 62%;
+}
+
+.start-37 {
+    left: 37%;
+}
+
+.start-55 {
+    left: 55%;
+}
+
+.start-35 {
+    left: 35%;
+}
+
+.start-45 {
+    left: 45%;
+}
+
+.start-65 {
+    left: 65%;
+}
+
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+.border-radius-20 {
+    border-radius: 20px;
+}
+
+.border-radius-10 {
+    border-radius: 7px;
+    border: none !important;
+}
+
+.box-shadow:hover {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25)
+}
+
+.scale1-2:hover {
+    transform: scale(1.02);
+}
+
+.col-3 {
+    width: 23%;
+}
+
+.border-light {
+    border-color: #d0d0d0 !important;
+}
+
+.top-80 {
+    top: 80%;
+}
+
+.opacity-09 {
+    opacity: 0.9;
+}
+
+.material-symbols-outlined:not(button span) {
+    font-size: 60px;
+    font-weight: 200 !important;
+    color: #003177;
+}
+
+.border-info {
+    border: 1px solid #003177 !important;
+}
+
+.border-primary {
+    border: 1px solid #3b5998 !important;
+}
+
+.text-info {
+    color: #003177 !important;
+}
+
+.bg-info {
+    background-color: #003177 !important;
+}
+
+.kategoriName {
+    color: #003177;
+}
+
+.w-125 {
+    width: 11.5%;
+}
+
+.kategoriler ul li a:hover .material-symbols-outlined,
+.kategoriler ul li a:hover .kategoriName {
+    opacity: 0.90;
+}
+
+.col-55 {
+    flex: 0 0 auto;
+    width: 46.66666667%;
+}
+
+.w-67 {
+    width: 67%;
+}
+
+.fadeAnimation {
+    animation: fade linear infinite 1.6s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+
+    10% {
+        opacity: 0.9;
+    }
+
+    20% {
+        opacity: 0.8;
+    }
+
+    30% {
+        opacity: 0.7;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    60% {
+        opacity: 0.4;
+    }
+}
+
+.webeOzelIndıcators {
+    height: 10px !important;
+    width: 10px !important;
+    background-color: #d6d6d6 !important;
+    opacity: 1 !important;
+}
+
+.webeOzelIndıcators:hover {
+    background-color: black !important;
+}
+
+.webeozel button.active {
+    background-color: black !important;
+}
+
+.webeozel img {
+    height: 16rem;
+}
+
+.coksatanmarkalar ul li:hover {
+    border-color: black !important;
+}
+
+.p0-5 {
+    padding: 0.5rem;
+}
+
+[data-tooltip] {
+    --arrow-size: 5px;
+    position: relative;
+    z-index: 10;
+}
+
+[data-tooltip]:before,
+[data-tooltip]:after {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    left: 50%;
+    bottom: calc(100% + var(--arrow-size));
+    pointer-events: none;
+    transition: 0.2s;
+    will-change: transform;
+}
+
+[data-tooltip]:before {
+    content: attr(data-tooltip);
+    padding: 10px 18px;
+    min-width: 50px;
+    max-width: 300px;
+    width: max-content;
+    width: -moz-max-content;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: rgb(10, 10, 10);
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    white-space: pre-wrap;
+    transform: translate(-50%, calc(0px - var(--arrow-size))) scale(0.5);
+}
+
+[data-tooltip]:after {
+    content: '';
+    border-style: solid;
+    border-width: var(--arrow-size) var(--arrow-size) 0px var(--arrow-size);
+    border-color: rgb(10, 10, 10) transparent transparent transparent;
+    transition-duration: 0s;
+    transform-origin: top;
+    transform: translateX(-50%) scaleY(0);
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    visibility: visible;
+    opacity: 1;
+}
+
+[data-tooltip]:hover:before {
+    transition-delay: 0.3s;
+    transform: translate(-50%, calc(0px - var(--arrow-size))) scale(1);
+}
+
+[data-tooltip]:hover:after {
+    transition-delay: 0.4s;
+    transition-duration: 0.2s;
+    transform: translateX(-50%) scaleY(1);
+}
+
+[data-tooltip-location="left"]:hover:after {
+    transform: translateY(50%) scaleX(1);
+}
+
+.example-elements {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.example-elements p {
+    display: inline-block;
+    margin-bottom: 5%;
+    color: #fff;
+}
+
+.example-elements p:hover {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+@media (max-height: 450px) {
+    main {
+        margin: 2rem 0;
+    }
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 750px) {
+    .example-elements {
+        max-width: 150px;
+        font-size: 22px;
+    }
+
+    .example-elements p:before,
+    .example-elements p:after {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .example-elements p:before {
+        content: "Tooltip";
+        font-size: 20px;
+        transform: translate(-50%, calc(0px - var(--arrow-size))) scale(1);
+    }
+
+    .example-elements p:after {
+        transform: translate(-50%, -1px) scaleY(1);
+    }
+
+    [data-tooltip]:after {
+        bottom: calc(100% + 3px);
+    }
+
+    [data-tooltip]:after {
+        border-width: 7px 7px 0px 7px;
+    }
+}
+
+.vh-35 {
+    height: 35vh;
+}
+
+.cursor-default {
+    cursor: default;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.avantajlarımız .fa-solid {
+    font-size: 45px;
+}
+
+.oneCikanUrunler .border-secondary {
+    border-color: black;
+}
+
+.bankalar img {
+    max-width: 74px !important;
+    min-height: 23px !important;
+    object-fit: contain;
+}
+
+.bilgiler .fa-brands:hover {
+    opacity: 0.85;
+}
+
+.footerLinks a:hover {
+    text-decoration: underline !important;
+}
+
+.devaminiOku {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.devaminiOku:hover {
+    text-decoration: underline;
+}
+
+.color-333 {
+    color: #333;
+}
+
+header .dropdown-item:hover {
+    background-color: #003177;
+}
